@@ -1,0 +1,9 @@
+تقرير طوارئ لمنطقة Delta بتاريخ 2025-03-15: خطر الجفاف مرتفع بنسبة 83 خلال 7 أيام. خطر الحريق منخفض بنسبة 1 خلال 7 أيام. في صورة عيّنة، نسبة الفيضان التقديرية 26.0 من الصورة.
+
+تنبيه: نموذج تجريبي. خطر الحريق مبني على مؤشر طقس وليس سجلات حرائق فعلية. المساحة المغمورة تقدير من نموذج رؤية حاسوبية baseline (متوسط IoU حوالي 46%، وقد يفوّت مساحات صغيرة أو كبيرة) على صورة عيّنة من داتا عامة، وليست خاصة بالمنطقة المذكورة. النسب غير معايرة ولا يُستخدم لقرارات طوارئ حقيقية.
+
+========================================
+
+Emergency report for Delta on 2025-03-15: drought risk is high at 83 percent within 7 days. fire risk is low at 1 percent within 7 days. In a sample image, the estimated flood percentage is 26.0 of the image.
+
+Note: demo model. Fire risk is a weather-based proxy, not real fire records. Flooded area is an estimate from a baseline computer-vision model (mean IoU about 46%, it may miss small or large areas) on a sample image from a public dataset, not specific to the region named. Probabilities are uncalibrated. Not for real emergency decisions.

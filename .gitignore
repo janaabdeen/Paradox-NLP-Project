@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+# generated outputs (keep example_output.txt)
+report.txt
+report_full.txt
+# data belongs to the TS repo, download it from there
+*_predictions.csv

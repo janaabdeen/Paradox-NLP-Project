@@ -1,0 +1,41 @@
+{
+  "_note": "Flooded-area values were measured by counting pixel colors in the 'MVP Prediction' and 'Ground Truth' panels of the 5 demo images published in the flood-detection-cv README. Color mapping assumed: dark blue = land, light green = flood (class 1), dark red = permanent water (class 2). Percent of the whole panel, so no-data pixels cannot be excluded. Approximate. Sample names are neutral numbers in README order (sample_1 = first row ... sample_5 = last row).",
+  "model": {
+    "name": "dual-branch U-Net (SAR + optical)",
+    "mean_flood_iou_pct": 46.23,
+    "mean_flood_f1_pct": 59.8,
+    "source": "README of github.com/zizo7amada20/flood-detection-cv"
+  },
+  "samples": {
+    "sample_1": {
+      "readme_row": 1,
+      "pred_flood_area_pct": 0.6,
+      "gt_flood_area_pct": 90.9,
+      "comment": "model missed almost all of the labeled flood area in this tile"
+    },
+    "sample_2": {
+      "readme_row": 2,
+      "pred_flood_area_pct": 26.0,
+      "gt_flood_area_pct": 24.3,
+      "comment": "large connected flood bodies, model agrees well with ground truth"
+    },
+    "sample_3": {
+      "readme_row": 3,
+      "pred_flood_area_pct": 1.8,
+      "gt_flood_area_pct": 0.6,
+      "comment": "thin river and small flood patches"
+    },
+    "sample_4": {
+      "readme_row": 4,
+      "pred_flood_area_pct": 0.3,
+      "gt_flood_area_pct": 0.2,
+      "comment": "small isolated flood region"
+    },
+    "sample_5": {
+      "readme_row": 5,
+      "pred_flood_area_pct": 0.0,
+      "gt_flood_area_pct": 0.0,
+      "comment": "no flood in this tile"
+    }
+  }
+}
